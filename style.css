@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("assets/img/background\ image.webp");
+  height: 100vh;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 20px rgb(25, 25, 111);
+}
+.box {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.66;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+nav {
+  display: flex;
+  max-width: 80vw;
+  margin: auto;
+  height: 100px;
+  justify-content: space-between;
+}
+nav button {
+  /* height: 20px; */
+  position: relative;
+  z-index: 10;
+  margin-top: 15px;
+}
+
+nav img {
+  width: 150px;
+  position: relative;
+  z-index: 105;
+  margin-top: 15px;
+}
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  /* font-weight: 900; */
+  height:calc(100% - 50%) ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: aliceblue;
+  position: relative;
+  gap: 23px;
+  padding: 29px;
+  text-align: center;
+}
+/* @media screen and (max-width:430px) {
+  .hero{
+    font-size: 1px;
+  }
+} */
+
+.hero > :first-child {
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+}
+.hero > :nth-child(2) {
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+}
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  color: white;
+  background-color: rgb(23, 23, 23, 0.2);
+  border: 1px solid white;
+  cursor: pointer;
+}
+.main input {
+  padding: 14px 29px;
+  font-size: 20px;
+  color: white;
+  border-radius: 3px;
+  background-color: rgb(23, 23, 23, 0.2);
+  border: 1px solid rgba(255, 247, 247, 0.2);
+}
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 14px 29px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+.btn-red-sm {
+  background-color: red;
+  color: white;
+}
+.separation {
+  /* width:100vw; */
+  /* height: 10px; */
+  /* border: 2px solid red; */
+  /* background-color: red; */
+}
+.first-1 div {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  margin-top: 51px;
+  margin-left: 100px;
+}
+.btn-red:hover {
+  background-color: rgb(147, 25, 25);
+}
+.box1 {
+  width: 15vw;
+  height: 40vh;
+  /* background-color: red; */
+  /* border: 2px solid red; */
+  display: inline-block;
+  position: relative;
+}
+.image:hover {
+  scale: 1.1;
+ 
+  box-shadow: 10px 10px 20px rgb(13, 13, 16);
+}
+.box1 img {
+  width: 15vw;
+  transition: all 0.5s ease-out;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-size: auto;
+  overflow: hidden;
+}
+.second div {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  margin-top: 51px;
+  margin-left: 100px;
+}
+.card {
+  /* width: 15vw;
+  height: 50vh; */
+  /* background-color: red; */
+  /* border: 2px solid red;
+  display: inline-block;
+  background: linear-gradient(red ,green ,blue); */
+  
+}
+.first{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 70vw;
+  color: white;
+  /* flex-wrap: wrap; */
+
+}
+
+
+.img1{
+  
+  position: relative;
+  /* margin-top: 100px; */
+  }
+  .img1 img{
+     width: 555px;
+     position: relative;
+     z-index: 10;
+  }
+  .img1 video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+    
+    
+    /* z-index: 10; */
+  }
+  section.first>div{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+  }
+  
+    .first > div :nth-child(1){
+      font-size: 48px;
+    font-weight: bold;
+  }
+
+  .first > div :nth-child(2){
+      font-size: 24px;
+    font-weight: bold;
+  }
+  .ques{
+    background-color: black;
+    color: white;
+  }
+  .ques h2 {
+   margin-left:20%;
+   font-size: 30px;
+   font-weight: 900;
+  }
+  .feqbox svg{
+    filter: invert(1);
+  }
+.feqbox{
+  display: flex;
+  background-color:rgb(61, 61, 61);
+  padding: 24px;
+  justify-content: space-between;
+  max-width: 70vw;
+  margin:34px auto;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all  0.3s ease-out;
+
+}
+.feqbox:hover{
+  background-color:rgb(92, 92, 92) ;
+ 
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 60vw;
+  margin: auto;
+
+
+}
+ul li{
+  padding: 10px;
+}
+
+footer{
+  color: white;
+  padding: 34px;
+
+}
+footer span{
+  max-width: 30vw;
+  margin: 20px 100px;
+}
+ul li a{
+  color: rgb(142, 142, 142);
+  
+}
+
+@media screen and (max-width:1300px) {
+    .first{
+      flex-wrap: wrap;
+    }
+     .img1 img{
+     width: 305px;
+   
+  }
+  .img1 video{
+    width: 305px;
+  }
+
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:25px
+  
+  
+}
+.hero> :nth-child(1){
+  font-size: 32px;
+}
+.hero> :nth-child(2){
+  font-size: 18px;
+}
+}
+
