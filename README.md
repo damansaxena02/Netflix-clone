@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/21d3c83d-e3b1-4b3b-94aa-fca7bb8063e0)# Netflix Clone 🎬Add commentMore actions
+![image](https://github.com/user-attachments/assets/21d3c83d-e3b1-4b3b-94aa-fca7bb8063e0)
+# Netflix Clone 🎬Add commentMore actions
 
 A simple static **Netflix Clone** created using only **HTML** and **CSS**. This project is made for learning and practice purposes.
 
